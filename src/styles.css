@@ -61,7 +61,16 @@ h2{
 
   .input:focus{
     width: 50%;
+    box-shadow: 0 15px 25px #af3edb;
+    text-align: left;
   }
+
+  @media screen and (max-width: 768px) {
+    .input:focus{
+        width: 70%;
+    }
+}
+
 
   .input::placeholder{
     color: white;
